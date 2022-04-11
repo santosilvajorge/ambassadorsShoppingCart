@@ -33,3 +33,36 @@ const marco = {
   
   const prices = [34, 5, 2];
   const shippingCost = 50;
+
+      
+  let sum = 0;
+
+  for (let i = 0; i < prices.length; i++) {
+    sum = sum + prices[i];
+}
+
+  console.log(sum);
+  const cartTotal = sum + shippingCost;
+
+  let newSum = []; /* this is the price before Shipping for Ambassadors */
+
+  if (amy[2] == true){
+    newSum = sum * 0,7; 
+  } else {
+    newSum = sum;
+  }
+
+  if (marco(2).isAmbassador == "true"){
+    newSum = sum * 0,7; 
+  } else {
+    newSum = sum;
+  }
+
+  if (marco(2).isAmbassador == "true"){
+    newSum = sum * 0,7; 
+  } else {
+    newSum = sum;
+  }
+
+ 
+  console.log(newSum);
