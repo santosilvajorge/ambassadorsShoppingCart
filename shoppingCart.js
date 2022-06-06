@@ -38,7 +38,7 @@ const marco = {
   let sum = 0;
 
   for (let i = 0; i < prices.length; i++) {
-    sum = sum + prices[i];
+    sum =+ prices[i];
 }
 
   console.log(sum);
